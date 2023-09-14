@@ -1,0 +1,49 @@
+.searchHeader{
+    display: grid;
+    height: 4rem;
+    grid-template-columns: repeat(2, 1fr);
+    background: rgb(172, 176, 213);
+    align-items:  center;
+    /* justify-content: start; */
+    padding: 0rem 1rem;
+}
+.HeaderName{
+    display: flex;
+    justify-content: start;
+    width: 30%;
+}
+
+.LogOut-btn{
+    display: flex;
+    justify-content: end;
+    width: 70%;
+
+}
+.title{
+    justify-self: start;
+}
+.searchinput{
+    border-radius: 8px;
+    display: grid;
+    align-items: center;
+    justify-self: end;
+    gap: 1rem;
+    grid-auto-flow: column;
+}
+
+.search{
+    width: 17rem;
+    height: 2.8rem;
+    border: none;
+    border-radius: 8px;
+}
+.button{
+    background-color: #008CBA;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+}
+.login-btn{
+    margin-left: -6rem;
+}
